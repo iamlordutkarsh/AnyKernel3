@@ -59,6 +59,7 @@ append_file fstab.tuna "usbdisk" fstab;
 
 # end ramdisk changes
 
+flash_dtbo;
 write_boot;
 ## end boot install
 
